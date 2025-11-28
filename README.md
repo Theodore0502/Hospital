@@ -7,7 +7,7 @@ python -m src.routing
 
 ## 1. Mục tiêu
 
-- Hiển thị toàn bộ bệnh viện trong một khu vực (ví dụ: TP. Hồ Chí Minh).
+- Hiển thị toàn bộ bệnh viện trong một khu vực (ví dụ: TP. Hà Nội).
 - Phân tích khả năng tiếp cận (vùng phục vụ theo bán kính).
 - Tạo heatmap mật độ bệnh viện.
 - Tính khoảng cách từ một điểm bất kỳ đến bệnh viện gần nhất.
@@ -62,7 +62,7 @@ python main.py
 Các bước bên trong:
 
 1. `src/fetch_data.py` tải dữ liệu bệnh viện từ OSM cho khu vực
-   mặc định là **Ho Chi Minh City, Vietnam** và lưu vào
+   mặc định là **Hanoi, Vietnam** và lưu vào
    `data/hospitals_clean.csv`.
 2. `src/preprocess.py` làm sạch dữ liệu và lưu vào
    `data/hospitals_preprocessed.csv`.
